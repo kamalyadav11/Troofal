@@ -9,8 +9,9 @@
     $stateProvider
         .state('courses.addCourses', {
           url: '/addCourses',
-          templateUrl: 'BlurAdmin.pages.courses.addCourses.addCourses.html',
+          templateUrl: 'app/pages/courses/addCourses/addCourses.html',
           title: 'Add Courses',
+          controller:'TablesPageCtrl',
           sidebarMeta: {
             //icon: 'ion-compose',
             order: 800,
