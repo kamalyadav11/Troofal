@@ -9,7 +9,7 @@
     $stateProvider
         .state('videos.addVideos', {
           url: '/addVideos',
-          templateUrl: 'BlurAdmin.pages.videos.addVideos.addVideos.html',
+          templateUrl: 'app/pages/videos/addVideos/addVideos.html',
           title: 'Add Videos',
           sidebarMeta: {
             //icon: 'ion-compose',
